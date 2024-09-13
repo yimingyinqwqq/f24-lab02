@@ -1,6 +1,6 @@
 import { newRectangle, Rectangle } from "./shapes/rectangle.js";
 
-function newRenderer(rectangle: Rectangle) {
+function newRenderer(rectangle: Shape) {
     return {
         draw() {
             const area: number = rectangle.computeArea()
